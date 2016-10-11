@@ -60,8 +60,9 @@ public class List
 	{
 		// Initialize num_items to 0 and position to -1
 		this.num_items = 0;
-		this.curr.setData(-1);
-		
+		this.head = new Node();
+		this.tail = new Node();
+		this.curr = new Node();
 	}
 
 	// copy constructor
@@ -73,14 +74,14 @@ public class List
 	// navigates to the beginning of the list
 	public void First()
 	{
-		this.curr = this.head.getLink();
+		this.curr.setLink(this.head.getLink());
 	}
 
 	// navigates to the end of the list
 	// the end of the list is at the last valid item in the list
 	public void Last()
 	{
-		this.curr = this.tail.getLink();
+		this.curr.setLink(this.tail.getLink());
 	}
 
 	// navigates to the specified element (0-index)
@@ -125,7 +126,7 @@ public class List
 	public void Next()
 	{
 		// if list is empty    or   curr is at the tail
-		if(this.num_items == 0 || this.curr.getLink() == this.tail.getLink())
+		if(this.GetSize() == 0 || this.curr.getLink() == this.tail.getLink())
 			return;
 
 		// Set curr to the next element
@@ -138,7 +139,7 @@ public class List
 	{
 		int pos_counter = 0;
 		// If our list is empty
-		if(this.head.getLink() == null)
+		if(this.GetSize() == 0)
 			return -1;
 
 		// Node pos_node to set endpoint for while loop
@@ -163,6 +164,8 @@ public class List
 	// returns the value of the current element (or -1)
 	public int GetValue()
 	{
+		if(this.GetSize() == 0)
+			return -1;
 		// Return the data of the Node that curr references
 		return this.curr.getLink().getData();
 	}
@@ -183,30 +186,41 @@ public class List
 		if(this.num_items == this.MAX_SIZE)
 			return;
 
-		// Node to hold curr so we can reset it at the end
-		Node temp_node = new Node();
-		temp_node.setLink(this.curr.getLink());
-
 		// Create new node that we will insert
 		Node new_node = new Node();
 		new_node.setData(data);
+
+		// Make temp_node to hold old curr position
+		Node temp_node = new Node();
+		temp_node.setLink(this.curr.getLink());
+
 		// Make the new node point to the node our curr is at
-		new_node.setLink(this.curr.getLink());
+		if(this.GetSize() != 0)
+			new_node.setLink(this.curr.getLink());
+		else
+		{
+			this.head.setLink(new_node);
+			this.tail.setLink(new_node);
+		}
 
 		// Move curr to beggining
-		this.curr.setLink(this.head.getLink());
+		this.First();
 
-		// Move curr to element in front of new_node
-		// while element after curr is not temp_node, curr ++
-		while(this.curr.getLink().getLink() != temp_node.getLink())
-			this.curr.setLink(this.curr.getLink().getLink())
+		if(this.GetSize() < 2)	
+		{
 
-		// Make element at curr reference new_node
-		this.curr.getLink().setLink(new_node);
+			// Move curr to element in front of new_node
+			// while element after curr is not temp_node, curr ++
+			while(this.curr.getLink().getLink() != temp_node.getLink())
+				this.curr.setLink(this.curr.getLink().getLink());
 
-		// Reset curr to temp_node
-		this.curr.setLink(temp_node.getLink());
-		
+			// Make element at curr reference new_node
+			this.curr.getLink().setLink(new_node);
+
+		}
+
+
+		this.Next();
 		// Increment num_items
 		this.num_items ++;
 	}
@@ -217,17 +231,26 @@ public class List
 	public void InsertAfter(int data)
 	{
 		// If list is full, return
-		if(this.num_items == this.MAX_SIZE)
+		if(this.GetSize() == this.MAX_SIZE)
 			return;
 
-		// Made new_node, set data, set new_node to point to element after curr
+		// Made new_node, set data
 		Node new_node = new Node();
 		new_node.setData(data);
-		new_node.setLink(this.curr.getLink().getLink());
 
-		// Make node curr is at reference new_node
-		this.curr.getLink().setLink(new_node);
-
+		// First time setup
+		if(this.GetSize() == 0)
+		{
+			// Set this.head to reference new_node, this.curr to reference new_node
+			this.head.setLink(new_node);
+			this.curr.setLink(this.head.getLink());
+			this.tail.setLink(new_node);
+		}
+		else
+			new_node.setLink(this.curr.getLink().getLink());
+		
+		if(this.curr.getLink() == this.tail.getLink())
+			tail.setLink(new_node);
 		// Increment num_items
 		this.num_items ++;
 	}
@@ -271,7 +294,7 @@ public class List
 	// returns if the list is full
 	public boolean IsFull()
 	{
-		if(this.num_items == this.MAX_ITEMS)
+		if(this.GetSize() == this.MAX_SIZE)
 			return true;
 		return false;
 	}
@@ -279,6 +302,28 @@ public class List
 	// returns if two lists are equal (by value)
 	public boolean Equals(List l)
 	{
+		// Set l.curr and this.curr to reference respective heads
+		this.curr.setLink(this.head.getLink());
+		l.curr.setLink(l.head.getLink());
+
+		// If they aren't the same length, return false
+		if(this.num_items != l.num_items)
+			return false;
+
+		// While curr is not at the at the tail
+		// Move through lists, comparing values 
+		while(this.curr.getLink() != this.tail.getLink())
+		{
+			// If values don't match, return false
+			if(this.curr.getLink().getData() != l.curr.getLink().getData())
+				return false;
+
+			// Increment this.curr and l.curr
+			this.curr.setLink(this.curr.getLink().getLink());
+			l.curr.setLink(l.curr.getLink().getLink());
+		}
+		return true;
+
 	}
 
 	// returns the concatenation of two lists
@@ -288,11 +333,63 @@ public class List
 	// the last element of the new list is the current
 	public List Add(List l)
 	{
+		// Create new list that will be the concatenation of this. and l.
+		List new_list = new List();
+
+		// Set curr for both lists to beginning
+		this.First();
+		l.First();
+
+		// Loop through this. , adding elements to new_list as we go
+		for(int i = 0; i < this.GetSize(); i++)
+		{
+			new_list.InsertAfter(this.GetValue());
+			this.Next();
+		}
+
+		// Loop through l. , adding elements to new_list until we run out of items to add or new_list.GetSize() is maxed out 
+		for(int i = 0; i < l.GetSize() && new_list.GetSize() <= new_list.MAX_SIZE; i++)
+		{
+			new_list.InsertAfter(l.GetValue());
+			l.Next();
+		}
+
+		return new_list;
 	}
 
 	// returns a string representation of the entire list (e.g., 1 2 3 4 5)
 	// the string "NULL" should be returned for an empty list
 	public String toString()
 	{
+		// Node to hold curr position
+		Node temp_node = new Node();
+		temp_node.setLink(this.curr.getLink());
+
+		// Instantiate and initialize string to return
+		String string = "";
+		
+		// If this is empty, return "NULL"
+		if(this.GetSize() == 0)
+			return "NULL";
+		
+		// Move curr to beginning of this
+		this.First();
+		
+		// Append data to string
+		for(int i = 0; i < this.GetSize(); i++, this.Next())
+			string += Integer.toString(this.GetValue());	
+
+		// Reset curr
+		this.curr.setLink(temp_node.getLink());
+
+		return string;
 	}
 }
+
+
+
+
+
+
+
+
