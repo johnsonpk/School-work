@@ -1,0 +1,3582 @@
+-----------------------------List Constructor
+Head:null
+Curr:null
+Num Items:0
+-----------------------------List Constructor
+Head:null
+Curr:null
+Num Items:0
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:true
+-----------------------------GetSize
+Num_items = 0
+-----------------------------GetSize
+Num_items = 0
+-----------------------------GetPos
+-----------------------------IsEmpty
+IsEmpty:true
+-----------------------------GetSize
+Num_items = 0
+-----------------------------toString
+-----------------------------GetSize
+Num_items = 0
+-----------------------------GetSize
+Num_items = 0
+-----------------------------GetPos
+-----------------------------IsEmpty
+IsEmpty:true
+-----------------------------GetSize
+Num_items = 0
+-----------------------------toString
+-----------------------------GetSize
+Num_items = 0
+-----------------------------InsertAfter
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 0
+Inserting 1
+-----------------------------IsEmpty
+IsEmpty:true
+-----------------------------GetSize
+Num_items = 0
+-----------------------------InsertBefore
+Head:null
+Curr:null
+Data:1
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 0
+-----------------------------IsEmpty
+IsEmpty:true
+-----------------------------GetSize
+Num_items = 0
+-----------------------------IsEmpty
+IsEmpty:true
+-----------------------------GetSize
+Num_items = 0
+____________Inserting before, list was empty | had one element | insert at beginning
+Head:78d03350
+Curr:78d03350
+New_Node:78d03350
+-----------------------------InsertAfter
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 1
+Inserting 2
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 1
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 1
+Incrementing curr
+-----------------------------InsertBefore
+Head:78d03350
+Curr:78d03350
+Data:2
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 1
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 1
+-----------------------------GetSize
+Num_items = 1
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 1
+____________Inserting before, list was empty | had one element | insert at beginning
+Head:2cd90727
+Curr:2cd90727
+New_Node:2cd90727
+-----------------------------InsertAfter
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 2
+Inserting 3
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 2
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 2
+Incrementing curr
+-----------------------------InsertBefore
+Head:2cd90727
+Curr:2cd90727
+Data:3
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 2
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 2
+-----------------------------GetSize
+Num_items = 2
+-----------------------------GetPos
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 2
+Finding position
+-----------------------------First
+Navigating to head
+Head:2cd90727
+Curr:2cd90727
+Pos:0
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 2
+____________Inserting before, list was empty | had one element | insert at beginning
+Head:5c64a871
+Curr:5c64a871
+New_Node:5c64a871
+-----------------------------InsertAfter
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 3
+Inserting 4
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 3
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 3
+Incrementing curr
+-----------------------------InsertBefore
+Head:5c64a871
+Curr:5c64a871
+Data:4
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 3
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 3
+-----------------------------GetSize
+Num_items = 3
+-----------------------------GetPos
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 3
+Finding position
+-----------------------------First
+Navigating to head
+Head:5c64a871
+Curr:5c64a871
+Pos:0
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 3
+____________Inserting before, list was empty | had one element | insert at beginning
+Head:546ec21a
+Curr:546ec21a
+New_Node:546ec21a
+-----------------------------InsertAfter
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 4
+Inserting 5
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 4
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 4
+Incrementing curr
+-----------------------------InsertBefore
+Head:546ec21a
+Curr:546ec21a
+Data:5
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 4
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 4
+-----------------------------GetSize
+Num_items = 4
+-----------------------------GetPos
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 4
+Finding position
+-----------------------------First
+Navigating to head
+Head:546ec21a
+Curr:546ec21a
+Pos:0
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 4
+____________Inserting before, list was empty | had one element | insert at beginning
+Head:33896444
+Curr:33896444
+New_Node:33896444
+-----------------------------InsertAfter
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 5
+Inserting 6
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 5
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 5
+Incrementing curr
+-----------------------------InsertBefore
+Head:33896444
+Curr:33896444
+Data:6
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 5
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 5
+-----------------------------GetSize
+Num_items = 5
+-----------------------------GetPos
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 5
+Finding position
+-----------------------------First
+Navigating to head
+Head:33896444
+Curr:33896444
+Pos:0
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 5
+____________Inserting before, list was empty | had one element | insert at beginning
+Head:115c6cb
+Curr:115c6cb
+New_Node:115c6cb
+-----------------------------InsertAfter
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 6
+Inserting 7
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 6
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 6
+Incrementing curr
+-----------------------------InsertBefore
+Head:115c6cb
+Curr:115c6cb
+Data:7
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 6
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 6
+-----------------------------GetSize
+Num_items = 6
+-----------------------------GetPos
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 6
+Finding position
+-----------------------------First
+Navigating to head
+Head:115c6cb
+Curr:115c6cb
+Pos:0
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 6
+____________Inserting before, list was empty | had one element | insert at beginning
+Head:3cae39fb
+Curr:3cae39fb
+New_Node:3cae39fb
+-----------------------------InsertAfter
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 7
+Inserting 8
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 7
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 7
+Incrementing curr
+-----------------------------InsertBefore
+Head:3cae39fb
+Curr:3cae39fb
+Data:8
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 7
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 7
+-----------------------------GetSize
+Num_items = 7
+-----------------------------GetPos
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 7
+Finding position
+-----------------------------First
+Navigating to head
+Head:3cae39fb
+Curr:3cae39fb
+Pos:0
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 7
+____________Inserting before, list was empty | had one element | insert at beginning
+Head:5260acdc
+Curr:5260acdc
+New_Node:5260acdc
+-----------------------------InsertAfter
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 8
+Inserting 9
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 8
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 8
+Incrementing curr
+-----------------------------InsertBefore
+Head:5260acdc
+Curr:5260acdc
+Data:9
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 8
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 8
+-----------------------------GetSize
+Num_items = 8
+-----------------------------GetPos
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 8
+Finding position
+-----------------------------First
+Navigating to head
+Head:5260acdc
+Curr:5260acdc
+Pos:0
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 8
+____________Inserting before, list was empty | had one element | insert at beginning
+Head:48f4c9c4
+Curr:48f4c9c4
+New_Node:48f4c9c4
+-----------------------------InsertAfter
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 9
+Inserting 10
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 9
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 9
+Incrementing curr
+-----------------------------InsertBefore
+Head:48f4c9c4
+Curr:48f4c9c4
+Data:10
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 9
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 9
+-----------------------------GetSize
+Num_items = 9
+-----------------------------GetPos
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 9
+Finding position
+-----------------------------First
+Navigating to head
+Head:48f4c9c4
+Curr:48f4c9c4
+Pos:0
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 9
+____________Inserting before, list was empty | had one element | insert at beginning
+Head:3eea8847
+Curr:3eea8847
+New_Node:3eea8847
+-----------------------------InsertAfter
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 10
+Inserting 11
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 10
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 10
+Incrementing curr
+-----------------------------InsertBefore
+Head:3eea8847
+Curr:3eea8847
+Data:11
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 10
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 10
+-----------------------------GetSize
+Num_items = 10
+-----------------------------GetPos
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 10
+Finding position
+-----------------------------First
+Navigating to head
+Head:3eea8847
+Curr:3eea8847
+Pos:0
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 10
+____________Inserting before, list was empty | had one element | insert at beginning
+Head:17990d96
+Curr:17990d96
+New_Node:17990d96
+-----------------------------InsertAfter
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 11
+Inserting 12
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 11
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 11
+Incrementing curr
+-----------------------------InsertBefore
+Head:17990d96
+Curr:17990d96
+Data:12
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 11
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 11
+-----------------------------GetSize
+Num_items = 11
+-----------------------------GetPos
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 11
+Finding position
+-----------------------------First
+Navigating to head
+Head:17990d96
+Curr:17990d96
+Pos:0
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 11
+____________Inserting before, list was empty | had one element | insert at beginning
+Head:414afef4
+Curr:414afef4
+New_Node:414afef4
+-----------------------------InsertAfter
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 12
+Inserting 13
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 12
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 12
+Incrementing curr
+-----------------------------InsertBefore
+Head:414afef4
+Curr:414afef4
+Data:13
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 12
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 12
+-----------------------------GetSize
+Num_items = 12
+-----------------------------GetPos
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 12
+Finding position
+-----------------------------First
+Navigating to head
+Head:414afef4
+Curr:414afef4
+Pos:0
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 12
+____________Inserting before, list was empty | had one element | insert at beginning
+Head:22a866a9
+Curr:22a866a9
+New_Node:22a866a9
+-----------------------------InsertAfter
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 13
+Inserting 14
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 13
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 13
+Incrementing curr
+-----------------------------InsertBefore
+Head:22a866a9
+Curr:22a866a9
+Data:14
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 13
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 13
+-----------------------------GetSize
+Num_items = 13
+-----------------------------GetPos
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 13
+Finding position
+-----------------------------First
+Navigating to head
+Head:22a866a9
+Curr:22a866a9
+Pos:0
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 13
+____________Inserting before, list was empty | had one element | insert at beginning
+Head:5debf305
+Curr:5debf305
+New_Node:5debf305
+-----------------------------InsertAfter
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 14
+Inserting 15
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 14
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 14
+Incrementing curr
+-----------------------------InsertBefore
+Head:5debf305
+Curr:5debf305
+Data:15
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 14
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 14
+-----------------------------GetSize
+Num_items = 14
+-----------------------------GetPos
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 14
+Finding position
+-----------------------------First
+Navigating to head
+Head:5debf305
+Curr:5debf305
+Pos:0
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 14
+____________Inserting before, list was empty | had one element | insert at beginning
+Head:2d9ffd6f
+Curr:2d9ffd6f
+New_Node:2d9ffd6f
+-----------------------------InsertAfter
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 15
+Inserting 16
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 15
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 15
+Incrementing curr
+-----------------------------InsertBefore
+Head:2d9ffd6f
+Curr:2d9ffd6f
+Data:16
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 15
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 15
+-----------------------------GetSize
+Num_items = 15
+-----------------------------GetPos
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 15
+Finding position
+-----------------------------First
+Navigating to head
+Head:2d9ffd6f
+Curr:2d9ffd6f
+Pos:0
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 15
+____________Inserting before, list was empty | had one element | insert at beginning
+Head:62b799cf
+Curr:62b799cf
+New_Node:62b799cf
+-----------------------------InsertAfter
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 16
+Inserting 17
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 16
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 16
+Incrementing curr
+-----------------------------InsertBefore
+Head:62b799cf
+Curr:62b799cf
+Data:17
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 16
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 16
+-----------------------------GetSize
+Num_items = 16
+-----------------------------GetPos
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 16
+Finding position
+-----------------------------First
+Navigating to head
+Head:62b799cf
+Curr:62b799cf
+Pos:0
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 16
+____________Inserting before, list was empty | had one element | insert at beginning
+Head:3d317ab
+Curr:3d317ab
+New_Node:3d317ab
+-----------------------------InsertAfter
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 17
+Inserting 18
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 17
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 17
+Incrementing curr
+-----------------------------InsertBefore
+Head:3d317ab
+Curr:3d317ab
+Data:18
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 17
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 17
+-----------------------------GetSize
+Num_items = 17
+-----------------------------GetPos
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 17
+Finding position
+-----------------------------First
+Navigating to head
+Head:3d317ab
+Curr:3d317ab
+Pos:0
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 17
+____________Inserting before, list was empty | had one element | insert at beginning
+Head:17b6dd83
+Curr:17b6dd83
+New_Node:17b6dd83
+-----------------------------InsertAfter
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 18
+Inserting 19
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 18
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 18
+Incrementing curr
+-----------------------------InsertBefore
+Head:17b6dd83
+Curr:17b6dd83
+Data:19
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 18
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 18
+-----------------------------GetSize
+Num_items = 18
+-----------------------------GetPos
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 18
+Finding position
+-----------------------------First
+Navigating to head
+Head:17b6dd83
+Curr:17b6dd83
+Pos:0
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 18
+____________Inserting before, list was empty | had one element | insert at beginning
+Head:6688cf9e
+Curr:6688cf9e
+New_Node:6688cf9e
+-----------------------------InsertAfter
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 19
+Inserting 20
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 19
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 19
+Incrementing curr
+-----------------------------InsertBefore
+Head:6688cf9e
+Curr:6688cf9e
+Data:20
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 19
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 19
+-----------------------------GetSize
+Num_items = 19
+-----------------------------GetPos
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 19
+Finding position
+-----------------------------First
+Navigating to head
+Head:6688cf9e
+Curr:6688cf9e
+Pos:0
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 19
+____________Inserting before, list was empty | had one element | insert at beginning
+Head:1ff6c2a9
+Curr:1ff6c2a9
+New_Node:1ff6c2a9
+-----------------------------InsertAfter
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 20
+Inserting 21
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 20
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 20
+Incrementing curr
+-----------------------------InsertBefore
+Head:1ff6c2a9
+Curr:1ff6c2a9
+Data:21
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 20
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 20
+-----------------------------GetSize
+Num_items = 20
+-----------------------------GetPos
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 20
+Finding position
+-----------------------------First
+Navigating to head
+Head:1ff6c2a9
+Curr:1ff6c2a9
+Pos:0
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 20
+____________Inserting before, list was empty | had one element | insert at beginning
+Head:165f5a4
+Curr:165f5a4
+New_Node:165f5a4
+-----------------------------InsertAfter
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 21
+Inserting 22
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 21
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 21
+Incrementing curr
+-----------------------------InsertBefore
+Head:165f5a4
+Curr:165f5a4
+Data:22
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 21
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 21
+-----------------------------GetSize
+Num_items = 21
+-----------------------------GetPos
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 21
+Finding position
+-----------------------------First
+Navigating to head
+Head:165f5a4
+Curr:165f5a4
+Pos:0
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 21
+____________Inserting before, list was empty | had one element | insert at beginning
+Head:4ce1e2b3
+Curr:4ce1e2b3
+New_Node:4ce1e2b3
+-----------------------------InsertAfter
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 22
+Inserting 23
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 22
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 22
+Incrementing curr
+-----------------------------InsertBefore
+Head:4ce1e2b3
+Curr:4ce1e2b3
+Data:23
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 22
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 22
+-----------------------------GetSize
+Num_items = 22
+-----------------------------GetPos
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 22
+Finding position
+-----------------------------First
+Navigating to head
+Head:4ce1e2b3
+Curr:4ce1e2b3
+Pos:0
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 22
+____________Inserting before, list was empty | had one element | insert at beginning
+Head:1ea7d34
+Curr:1ea7d34
+New_Node:1ea7d34
+-----------------------------InsertAfter
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 23
+Inserting 24
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 23
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 23
+Incrementing curr
+-----------------------------InsertBefore
+Head:1ea7d34
+Curr:1ea7d34
+Data:24
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 23
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 23
+-----------------------------GetSize
+Num_items = 23
+-----------------------------GetPos
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 23
+Finding position
+-----------------------------First
+Navigating to head
+Head:1ea7d34
+Curr:1ea7d34
+Pos:0
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 23
+____________Inserting before, list was empty | had one element | insert at beginning
+Head:49c1e1e7
+Curr:49c1e1e7
+New_Node:49c1e1e7
+-----------------------------InsertAfter
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 24
+Inserting 25
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 24
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 24
+Incrementing curr
+-----------------------------InsertBefore
+Head:49c1e1e7
+Curr:49c1e1e7
+Data:25
+-----------------------------IsFull
+IsFull:false
+-----------------------------GetSize
+Num_items = 24
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 24
+-----------------------------GetSize
+Num_items = 24
+-----------------------------GetPos
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 24
+Finding position
+-----------------------------First
+Navigating to head
+Head:49c1e1e7
+Curr:49c1e1e7
+Pos:0
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 24
+____________Inserting before, list was empty | had one element | insert at beginning
+Head:57d62a85
+Curr:57d62a85
+New_Node:57d62a85
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetPos
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Finding position
+-----------------------------First
+Navigating to head
+Head:2d81aed0
+Curr:1cfbf107
+Curr:2d81aed0
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:608d116e
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:4d737e47
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:59678f0a
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:1de00761
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:5f048099
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:2096ed8b
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:14c55164
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:266286e3
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:e85b4c5
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:6c1ef8f5
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:656ad447
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:4896b555
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:1e5b04ae
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:69904b13
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:31028a
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:119db21f
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:8191a42
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:280ae735
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:63d15d1c
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:46380c76
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:9ba3afe
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:2176feaf
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:b4aa453
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Pos:24
+-----------------------------toString
+-----------------------------GetSize
+Num_items = 25
+-----------------------------First
+Navigating to head
+Head:2d81aed0
+Curr:1cfbf107
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetPos
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Finding position
+-----------------------------First
+Navigating to head
+Head:57d62a85
+Curr:57d62a85
+Pos:0
+-----------------------------toString
+-----------------------------GetSize
+Num_items = 25
+-----------------------------First
+Navigating to head
+Head:57d62a85
+Curr:57d62a85
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetSize
+Num_items = 0
+-----------------------------GetPos
+-----------------------------IsEmpty
+IsEmpty:true
+-----------------------------GetSize
+Num_items = 0
+-----------------------------toString
+-----------------------------GetSize
+Num_items = 0
+-----------------------------Remove
+-----------------------------Remove
+-----------------------------Remove
+-----------------------------Remove
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetPos
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Finding position
+-----------------------------First
+Navigating to head
+Head:2d81aed0
+Curr:null
+Curr:2d81aed0
+Temp Node:null
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:608d116e
+Temp Node:null
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:4d737e47
+Temp Node:null
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:59678f0a
+Temp Node:null
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:1de00761
+Temp Node:null
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:5f048099
+Temp Node:null
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:2096ed8b
+Temp Node:null
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:14c55164
+Temp Node:null
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:266286e3
+Temp Node:null
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:e85b4c5
+Temp Node:null
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:6c1ef8f5
+Temp Node:null
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:656ad447
+Temp Node:null
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:4896b555
+Temp Node:null
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:1e5b04ae
+Temp Node:null
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:69904b13
+Temp Node:null
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:31028a
+Temp Node:null
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:119db21f
+Temp Node:null
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:8191a42
+Temp Node:null
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:280ae735
+Temp Node:null
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:63d15d1c
+Temp Node:null
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:46380c76
+Temp Node:null
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:9ba3afe
+Temp Node:null
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:2176feaf
+Temp Node:null
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:b4aa453
+Temp Node:null
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:1cfbf107
+Temp Node:null
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Pos:25
+-----------------------------toString
+-----------------------------GetSize
+Num_items = 25
+-----------------------------First
+Navigating to head
+Head:2d81aed0
+Curr:null
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------First
+Navigating to head
+Head:2d81aed0
+Curr:null
+-----------------------------Remove
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Replace
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Replace
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Replace
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Replace
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Replace
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Replace
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Replace
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Replace
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Replace
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Replace
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Replace
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Replace
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetPos
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Finding position
+-----------------------------First
+Navigating to head
+Head:2d81aed0
+Curr:1cfbf107
+Curr:2d81aed0
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:608d116e
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:4d737e47
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:59678f0a
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:1de00761
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:5f048099
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:2096ed8b
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:14c55164
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:266286e3
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:e85b4c5
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:6c1ef8f5
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:656ad447
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:4896b555
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:1e5b04ae
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:69904b13
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:31028a
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:119db21f
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:8191a42
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:280ae735
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:63d15d1c
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:46380c76
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:9ba3afe
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:2176feaf
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Curr:b4aa453
+Temp Node:1cfbf107
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Pos:24
+-----------------------------toString
+-----------------------------GetSize
+Num_items = 25
+-----------------------------First
+Navigating to head
+Head:2d81aed0
+Curr:1cfbf107
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------GetValue
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Getting data
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+-----------------------------GetSize
+Num_items = 25
+-----------------------------Next
+-----------------------------IsEmpty
+IsEmpty:false
+-----------------------------GetSize
+Num_items = 25
+Incrementing curr
+Exception in thread "main" java.lang.NullPointerException
+	at List.Next(List.java:148)
+	at ListTest.main(ListTest.java:40)
