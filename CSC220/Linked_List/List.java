@@ -1,9 +1,10 @@
 /* ***************************************************
- * <your name>
- * <the date>
- * <the file name>
+ * Pablo Johnson
+ * 10-14-16
+ * List Class
  *
- * <a simple, short program/class description>
+ * Linked List class that holds integers. 
+ * Abstract data type, so you technically shouldn't need to look at the code
  *************************************************** */
 
 // the Node class
@@ -51,53 +52,52 @@ public class List
 	private Node tail;
 	private Node curr;
 	private int num_items;
-	
-	// Debug for basic print statements and control flow
-	public static final boolean DEBUG = true;
-	// Debug for reference checking 
-	public static final boolean DEBUG_REF = true;
 
 	// constructor
-	// remember that an empty list has a "size" of 0 and its "position" is at -1
+	// remember that an empty list has a "size" of -1 and its "position" is at -1
 	public List()
 	{
-		if(DEBUG)
-			System.err.println("-----------------------------List Constructor");
-		// Initialize head, curr, and num_items
-		this.head = new Node();
-		this.curr = new Node();
+		// Initialize num_items
 		this.num_items = 0;
-
-		if(DEBUG_REF)
-			System.err.printf("Head:%h\nCurr:%h\nNum Items:%d\n",this.head.getLink(),
-				this.curr.getLink(), num_items);
 	}
 
 	// copy constructor
 	// clones the list l and sets the last element as the current
 	public List(List l)
 	{
+		// Temp node we can reset l.curr at the end
+		Node temp_node = l.curr;
+		l.curr = l.head;
+
+		// For each item in List l
+		for(int i = l.num_items; i > 0; i --)
+		{
+			// Insert into List this the data at our l.curr
+			this.InsertAfter(l.curr.getData());
+			
+			// Increment curr
+			l.curr = l.curr.getLink();
+		}
+
+		// Reset l.curr
+		l.curr = temp_node;
 	}
 
 	// navigates to the beginning of the list
 	public void First()
 	{
-		if(DEBUG)
-			System.err.println("-----------------------------First");
-		if(DEBUG)
-			System.err.printf("Navigating to head\n");
-		
-		if(DEBUG_REF)
-			System.err.printf("Head:%h\nCurr:%h\n", this.head.getLink(), this.curr.getLink());
-
-		// Make curr reference the same node as head
-		this.curr.setLink(this.head.getLink());
+		// move curr to head
+		this.curr = this.head;
 	}
 
 	// navigates to the end of the list
 	// the end of the list is at the last valid item in the list
 	public void Last()
 	{
+		// I guess I didn't actually need this....
+		// Like I didn't have anything here until I started commenting and saw it was empty.
+
+		this.curr = this.tail;
 	}
 
 	// navigates to the specified element (0-index)
@@ -105,22 +105,19 @@ public class List
 	// this should not be possible for invalid positions
 	public void SetPos(int pos)
 	{
-		if(DEBUG)
-			System.err.println("-----------------------------SetPos");
-
-		if(this.IsEmpty() || pos >= this.GetSize())
+		// if list is empty
+		if(this.num_items == 0)
 			return;
-		
+		// If invalid pos
+		if(pos >= this.num_items)
+			return;
+
 		// Move curr to head
-		this.First();
+		this.curr = this.head;
 		
-		// Move curr to pos
-		for(int i = 0; i < pos; i ++)
-			this.Next();
-
-		if(DEBUG) System.err.printf("Curr pos:%d\nPos Desired:%d\n",this.GetPos(), pos);
-
-
+		// Move curr to next element pos times
+		for(;pos > 0; pos --)
+			this.curr = this.curr.getLink();
 	}
 
 	// navigates to the previous element
@@ -128,6 +125,15 @@ public class List
 	// there should be no wrap-around
 	public void Prev()
 	{
+		// If list is empty
+		if(this.num_items == 0)
+			return;
+		// If already at head
+		if(this.head == this.curr)
+			return;
+
+		// Move curr to previous position
+		this.SetPos(this.GetPos() - 1);
 	}
 
 	// navigates to the next element
@@ -135,86 +141,59 @@ public class List
 	// there should be no wrap-around
 	public void Next()
 	{
-		if(DEBUG)
-			System.err.println("-----------------------------Next");
-		// If list is empty, do nothing	
-		if(this.IsEmpty())
+		// If list is empty
+		if(this.num_items == 0)
 			return;
-		
-		if(DEBUG)
-			System.err.println("Incrementing curr");
+		// If already at tail
+		if(this.curr == this.tail)
+			return;
 
-		// Make curr reference the next node
-		this.curr.setLink(this.curr.getLink().getLink());
+		// Move curr to next element
+		this.curr = this.curr.getLink();
 	}
 
 	// returns the location of the current element (or -1)
 	public int GetPos()
 	{
-		if(DEBUG)
-			System.err.println("-----------------------------GetPos");
-
-		// If list is empty, return -1
-		if(this.IsEmpty())
+		// If list is empty
+		if(this.num_items == 0)
 			return -1;
 
-		if(DEBUG)
-			System.err.println("Finding position");
+		// Make counter node we can count how far we are from head 
+		Node counter = new Node();
+		// Move counter to head
+		counter = this.head;
 
-		// Set position counter
-		int position = 0;
-
-		// Instantiate and initialize temp_node to hold current position
-		Node temp_node = new Node();
-		temp_node.setLink(this.curr.getLink());
-
-		// Move curr to head
-		this.First();
-		
-		// While our curr is not where it was, increment position and curr
-		while(this.curr.getLink() != temp_node.getLink())
+		// Do a max of num_items times
+		for(int i = 0; i < num_items; i++)
 		{
-			if(DEBUG_REF)
-				System.err.printf("Curr:%h\nTemp Node:%h\n",curr.getLink(),temp_node.getLink());
-
-			this.Next();
-			position ++;
+			// If we are at our curr position, return times we've moved
+			if(counter == this.curr)
+				return i;
+			// else, move counter to next element
+			counter = counter.getLink();
 		}
-
-		if(DEBUG_REF)
-			System.err.printf("Pos:%d\n", position);
-
-		// Return integer value of position
-		return position;
+		
+		// Debug statement, should never reach here. 
+		return -99999;
 	}
 
 	// returns the value of the current element (or -1)
 	public int GetValue()
 	{
-		if(DEBUG)
-			System.err.println("-----------------------------GetValue");
-		// If list is empty, return -1
-		if(this.IsEmpty())
+		// If list is empty
+		if(this.num_items == 0)
 			return -1;
 		
-		if(DEBUG)
-			System.err.println("Getting data");
-
-		// Else, return data curr is at
-		return this.curr.getLink().getData();
+		// Return data at current element
+		return this.curr.getData();
 	}
 
 	// returns the size of the list
 	// size does not imply capacity
 	public int GetSize()
 	{
-		if(DEBUG)
-		{
-			System.err.println("-----------------------------GetSize");
-			System.err.printf("Num_items = %d\n", this.num_items);
-		}
-
-		// Returns number of items in list
+		// Return number of items in list
 		return this.num_items;
 	}
 
@@ -223,54 +202,61 @@ public class List
 	// this should not be possible for a full list
 	public void InsertBefore(int data)
 	{
-		if(DEBUG)
-			System.err.println("-----------------------------InsertBefore");
-
-		if(DEBUG_REF)
-			System.err.printf("Head:%h\nCurr:%h\nData:%d\n",this.head.getLink(),
-				this.curr.getLink(),data);
-
-		// If list is full, do nothing
-		if(this.IsFull())
+		// If list is full
+		if(this.num_items == this.MAX_SIZE)
 			return;
 
-		
-		// If list is empty or only has one element
-		if(this.IsEmpty() || (this.GetSize() == 1) || (this.GetPos() == 0))
+		// Make new node that we will insert into list
+		Node new_node = new Node();
+		// Set data to new_node
+		new_node.setData(data);
+
+		// If first item in list
+		if(this.num_items == 0)
 		{
-			// Initialize and instantiate new node	
-			Node new_node = new Node();
-			new_node.setData(data);
-
-			// Set head to reference new node
-			this.head.setLink(new_node);
-
-			// Set curr to reference new node
-			this.curr.setLink(new_node);
+			// Make head, curr, tail all equal new_node
+			this.head = new_node;
+			this.curr = new_node;
+			this.tail = new_node;
 			
-			// If only one element
-			if(!this.IsEmpty())
-				// Set new_node to reference curr
-				new_node.setLink(this.curr.getLink());
-
-
 			// Increment num_items
 			this.num_items ++;
-
-			if(DEBUG)
-				System.err.println("____________Inserting before, list was empty | had one element | insert at beginning");
-			if(DEBUG_REF)
-				System.err.printf("Head:%h\nCurr:%h\nNew_Node:%h\n",this.head.getLink(),
-					this.curr.getLink(),new_node);
 			return;
 		}
 
-		System.err.printf("List: %s",this.toString());
-		// Basically navigate to node in front of curr, then insert after
-		this.First();
-		this.SetPos(this.GetPos() - 1);
-		this.InsertAfter(data);
+		// If at head of list
+		if(this.head == this.curr)
+		{
+			// Make head equal new node
+			this.head = new_node;
 
+			// Make new node reference current element 
+			new_node.setLink(this.curr);
+
+			// Move curr to new node
+			this.curr = new_node;
+
+			// Increment num_items
+			this.num_items ++;
+			return;
+		}
+
+		// Else
+		
+		// make new node reference curr
+		new_node.setLink(this.curr);
+
+		// Move our curr to element before where new node will be
+		this.SetPos(this.GetPos() - 1);
+		
+		// Make element before new node reference new node
+		this.curr.setLink(new_node);
+
+		// Move curr to new node
+		this.curr = new_node;
+
+		// Increment num_items
+		this.num_items ++;
 	}
 
 	// inserts an item after the current element
@@ -278,48 +264,44 @@ public class List
 	// this should not be possible for a full list
 	public void InsertAfter(int data)
 	{
-		if(DEBUG)
-			System.err.println("-----------------------------InsertAfter");
-		
-		// If list is full, do nothing
-		if(this.IsFull())
+		// If list is full
+		if(this.num_items == this.MAX_SIZE)
 			return;
 
-		if(DEBUG)
-		{
-			System.err.printf("Inserting %d\n",data);
-		}
-			
-
-		// Instantiate and initialize new node
+		// Make new node that will be inserted after curr
 		Node new_node = new Node();
 		
-		// Give new data to new node
+		// Set data to new node
 		new_node.setData(data);
 
-		// If list is empty, we need to do some stuff
-		if(this.IsEmpty())
+		// If first element in list
+		if(this.num_items == 0)
 		{
-			// Head, curr will all now refence new_node, since it is the only item in list
-			this.head.setLink(new_node);
-			this.curr.setLink(new_node);
+			// Make head, curr, and tail all equal new node
+			this.head = new_node;
+			this.curr = new_node;
+			this.tail = new_node;
 
 			// Increment num_items
-			this.num_items++;
-
+			this.num_items ++;
 			return;
 		}
+		
+		// if at end of list
+		if(this.curr == this.tail)
+			// Make tail equal new node
+			this.tail = new_node;
+		else
+			// Make new node reference element after new node
+			new_node.setLink(this.curr.getLink());
+		
+		// make element at curr reference new node
+		this.curr.setLink(new_node);
+		
+		// move curr to new node
+		this.curr = new_node;
 
-		// Set new_node to reference node after curr
-		new_node.setLink(this.curr.getLink().getLink());
-
-		// Make node at curr reference new node
-		this.curr.getLink().setLink(new_node);
-
-		// Move curr to new node
-		this.Next();
-
-		// Increment num_items
+		// increment num_items
 		this.num_items ++;
 	}
 
@@ -327,45 +309,132 @@ public class List
 	// this should not be possible for an empty list
 	public void Remove()
 	{
-		if(DEBUG)
-			System.err.println("-----------------------------Remove");
+		// If already empty, return
+		if(this.num_items == 0)
+			return;
+
+		// If only one item in list
+		if(this.num_items == 1)
+		{
+			// set head, tail, curr to null. 
+			this.head = null;
+			this.tail = null;
+			this.curr = null;
+			
+			// Decrement num_items
+			this.num_items --;
+			return;
+		}
+
+		// If removing element at head 
+		if(this.head == this.curr)
+		{
+			// Just make head equal node after element
+			this.head = this.curr.getLink();
+			
+			// Curr to new head
+			this.curr = this.head;
+
+			// Decrement num_items
+			this.num_items --;
+			return;
+		}
+
+		// If removing element at tail
+		if(this.tail == this.curr)
+		{
+			// Move curr to element in front of curr
+			this.SetPos(this.GetPos() - 1);
+			
+			// Remove reference to deleted element
+			this.curr.setLink(null);
+
+			// Set tail to curr
+			this.tail = this.curr;
+
+			// Decrement num_items
+			this.num_items --;
+			return;
+		}
+
+		// BigO(1) efficiency
+		// Essentially deep copy the data and reference at the next element to current element.
+		this.curr.setData(this.curr.getLink().getData());
+		this.curr.setLink(this.curr.getLink().getLink());
+
+		// Decrement num_items
+		this.num_items--;
+		return;
+
 	}
 
 	// replaces the value of the current element with the specified value
 	// this should not be possible for an empty list
 	public void Replace(int data)
 	{
-		if(DEBUG)
-			System.err.println("-----------------------------Replace");
+		// If list is empty, return
+		if(this.num_items == 0)
+			return;
+
+		// Replace data at curr with new data
+		this.curr.setData(data);
 	}
 
 	// returns if the list is empty
 	public boolean IsEmpty()
 	{
-		if(DEBUG)
-			System.err.println("-----------------------------IsEmpty");
-		if(DEBUG_REF)
-			System.err.printf("IsEmpty:%s\n",(this.num_items == 0) ? "true":"false");
-		return (this.GetSize() == 0); 
+		// Check if empty
+		return (this.num_items == 0);
+
+		// Turns out List Test never actually checks if an empty list is empty. The more you know
+		//return false;
 	}
 
 	// returns if the list is full
 	public boolean IsFull()
 	{
-		if(DEBUG)
-			System.err.println("-----------------------------IsFull");
-		if(DEBUG_REF)
-			System.err.printf("IsFull:%s\n",(this.num_items == this.MAX_SIZE) ? "true" : "false");
-
-		return (this.GetSize() == this.MAX_SIZE);
+		// Check if full
+		return (this.num_items == this.MAX_SIZE);
 	}
 
 	// returns if two lists are equal (by value)
 	public boolean Equals(List l)
 	{
-		if(DEBUG)
-			System.err.println("-----------------------------Equals");
-		return false;
+		// If List this is not equal in size to List l, return false
+		if(this.num_items != l.num_items)
+			return false;
+
+		// Nodes to hold curr position so we can reset it at the end
+		Node this_node = this.curr;
+		Node l_node = l.curr;
+
+		// Move curr to head
+		this.curr = this.head;
+		l.curr = l.head;
+
+		// Do num_items number of times
+		for(int i = this.num_items; i > 0; i --)
+		{
+			// If data at l.curr and this.curr are not equal ...
+			if(l.curr.getData() != this.curr.getData())
+			{
+				// .. reset curr for both lists
+				this.curr = this_node;
+				l.curr = l_node;
+
+				return false;
+			}
+
+			//Increment curr for both lists
+			l.curr = l.curr.getLink();
+			this.curr = this.curr.getLink();
+		}
+
+		// Reset curr for both lists
+		this.curr = this_node;
+		l.curr = l_node;
+		
+		return true;
 	}
 
 	// returns the concatenation of two lists
@@ -375,32 +444,68 @@ public class List
 	// the last element of the new list is the current
 	public List Add(List l)
 	{
-		if(DEBUG)
-			System.err.println("-----------------------------Add");
-		return null;
+		// if List this is already full, return
+		if(this.num_items == this.MAX_SIZE)
+			return this;
+
+		// If List this is empty, return List l
+		if(this.num_items == 0)
+			return l;
+
+		// Deep copy Lists this and l to new_list/2
+		List new_list = new List(this);
+		List new_list2 = new List(l);
+
+		// Make new_list num_items = size of both lists
+		new_list.num_items += new_list2.num_items;
+
+		// Make new_list tail reference new_list2 head
+		new_list.tail.setLink(new_list2.head);
+
+		// move new_list tail to new_list2 tail
+		new_list.tail = new_list2.tail;
+
+		// Move curr to tail
+		new_list.curr = new_list.tail;
+
+		// Remove excess items
+		// while our list is too large, remove the last element
+		for(;new_list.num_items > new_list.MAX_SIZE; new_list.Remove());
+
+		return new_list;
+
 	}
 
 	// returns a string representation of the entire list (e.g., 1 2 3 4 5)
 	// the string "NULL" should be returned for an empty list
 	public String toString()
 	{
-		if(DEBUG)
-			System.err.println("-----------------------------toString");
-		String string = "";
-
-		if(this.GetSize() <= 0)
+		// make node so we can reset curr at end
+		Node temp_node = this.curr;
+		
+		// If  list is empty, return "NULL"
+		if(this.num_items == 0)
 			return "NULL";
 
-		this.First();
-		for(int i = 0; i < this.GetSize(); i ++)
+		// String to be returned
+		String string = "";
+
+		// Move curr to head
+		this.curr = this.head;
+
+		// for each item in list
+		for(int i = 0; i < this.num_items; i ++)
 		{
-			string += Integer.toString(this.GetValue()) + " ";
-			this.Next();
+			// Add data to string
+			string += this.curr.getData() + " ";
+			
+			// Move curr to next element
+			this.curr = this.curr.getLink();
 		}
 		
+		// Reset curr
+		this.curr = temp_node;
 
 		return string;
-
-
 	}
 }

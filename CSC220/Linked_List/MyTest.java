@@ -5,8 +5,24 @@ public class MyTest
 		List a = new List();
 		List b = new List();
 
-		a.InsertAfter(3);
-		System.out.println(" 1 " + a.GetPos());
+		for(int i = 0; i < 25; i++)
+		{
+			a.InsertAfter(i);
+			b.InsertBefore(i);
+		}
+		
+		System.out.println("a: " + a);
+		System.out.println("b: " + b);
+
+		System.out.println("apos: " + a.GetPos());	
+		System.out.println("bpos: " + b.GetPos());	
+
+		a.Remove();
+		b.Remove();
+
+		System.out.println("a: " + a);
+		System.out.println("b: " + b);
+
 	}
 }
 
