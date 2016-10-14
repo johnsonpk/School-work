@@ -3,7 +3,7 @@
  * 10-14-16
  * List Class
  *
- * Linked List class that holds integers. 
+ * Linked List class that holds integers.
  * Abstract data type, so you technically shouldn't need to look at the code
  *************************************************** */
 
@@ -70,11 +70,11 @@ public class List
 		l.curr = l.head;
 
 		// For each item in List l
-		for(int i = l.num_items; i > 0; i --)
+		for (int i = l.num_items; i > 0; i --)
 		{
 			// Insert into List this the data at our l.curr
 			this.InsertAfter(l.curr.getData());
-			
+
 			// Increment curr
 			l.curr = l.curr.getLink();
 		}
@@ -106,17 +106,17 @@ public class List
 	public void SetPos(int pos)
 	{
 		// if list is empty
-		if(this.num_items == 0)
+		if (this.num_items == 0)
 			return;
 		// If invalid pos
-		if(pos >= this.num_items)
+		if (pos >= this.num_items)
 			return;
 
 		// Move curr to head
 		this.curr = this.head;
-		
+
 		// Move curr to next element pos times
-		for(;pos > 0; pos --)
+		for (; pos > 0; pos --)
 			this.curr = this.curr.getLink();
 	}
 
@@ -126,10 +126,10 @@ public class List
 	public void Prev()
 	{
 		// If list is empty
-		if(this.num_items == 0)
+		if (this.num_items == 0)
 			return;
 		// If already at head
-		if(this.head == this.curr)
+		if (this.head == this.curr)
 			return;
 
 		// Move curr to previous position
@@ -142,10 +142,10 @@ public class List
 	public void Next()
 	{
 		// If list is empty
-		if(this.num_items == 0)
+		if (this.num_items == 0)
 			return;
 		// If already at tail
-		if(this.curr == this.tail)
+		if (this.curr == this.tail)
 			return;
 
 		// Move curr to next element
@@ -156,25 +156,25 @@ public class List
 	public int GetPos()
 	{
 		// If list is empty
-		if(this.num_items == 0)
+		if (this.num_items == 0)
 			return -1;
 
-		// Make counter node we can count how far we are from head 
+		// Make counter node we can count how far we are from head
 		Node counter = new Node();
 		// Move counter to head
 		counter = this.head;
 
 		// Do a max of num_items times
-		for(int i = 0; i < num_items; i++)
+		for (int i = 0; i < num_items; i++)
 		{
 			// If we are at our curr position, return times we've moved
-			if(counter == this.curr)
+			if (counter == this.curr)
 				return i;
 			// else, move counter to next element
 			counter = counter.getLink();
 		}
-		
-		// Debug statement, should never reach here. 
+
+		// Debug statement, should never reach here.
 		return -99999;
 	}
 
@@ -182,9 +182,9 @@ public class List
 	public int GetValue()
 	{
 		// If list is empty
-		if(this.num_items == 0)
+		if (this.num_items == 0)
 			return -1;
-		
+
 		// Return data at current element
 		return this.curr.getData();
 	}
@@ -203,7 +203,7 @@ public class List
 	public void InsertBefore(int data)
 	{
 		// If list is full
-		if(this.num_items == this.MAX_SIZE)
+		if (this.num_items == this.MAX_SIZE)
 			return;
 
 		// Make new node that we will insert into list
@@ -212,25 +212,25 @@ public class List
 		new_node.setData(data);
 
 		// If first item in list
-		if(this.num_items == 0)
+		if (this.num_items == 0)
 		{
 			// Make head, curr, tail all equal new_node
 			this.head = new_node;
 			this.curr = new_node;
 			this.tail = new_node;
-			
+
 			// Increment num_items
 			this.num_items ++;
 			return;
 		}
 
 		// If at head of list
-		if(this.head == this.curr)
+		if (this.head == this.curr)
 		{
 			// Make head equal new node
 			this.head = new_node;
 
-			// Make new node reference current element 
+			// Make new node reference current element
 			new_node.setLink(this.curr);
 
 			// Move curr to new node
@@ -242,13 +242,13 @@ public class List
 		}
 
 		// Else
-		
+
 		// make new node reference curr
 		new_node.setLink(this.curr);
 
 		// Move our curr to element before where new node will be
 		this.SetPos(this.GetPos() - 1);
-		
+
 		// Make element before new node reference new node
 		this.curr.setLink(new_node);
 
@@ -265,17 +265,17 @@ public class List
 	public void InsertAfter(int data)
 	{
 		// If list is full
-		if(this.num_items == this.MAX_SIZE)
+		if (this.num_items == this.MAX_SIZE)
 			return;
 
 		// Make new node that will be inserted after curr
 		Node new_node = new Node();
-		
+
 		// Set data to new node
 		new_node.setData(data);
 
 		// If first element in list
-		if(this.num_items == 0)
+		if (this.num_items == 0)
 		{
 			// Make head, curr, and tail all equal new node
 			this.head = new_node;
@@ -286,18 +286,18 @@ public class List
 			this.num_items ++;
 			return;
 		}
-		
+
 		// if at end of list
-		if(this.curr == this.tail)
+		if (this.curr == this.tail)
 			// Make tail equal new node
 			this.tail = new_node;
 		else
 			// Make new node reference element after new node
 			new_node.setLink(this.curr.getLink());
-		
+
 		// make element at curr reference new node
 		this.curr.setLink(new_node);
-		
+
 		// move curr to new node
 		this.curr = new_node;
 
@@ -310,28 +310,28 @@ public class List
 	public void Remove()
 	{
 		// If already empty, return
-		if(this.num_items == 0)
+		if (this.num_items == 0)
 			return;
 
 		// If only one item in list
-		if(this.num_items == 1)
+		if (this.num_items == 1)
 		{
-			// set head, tail, curr to null. 
+			// set head, tail, curr to null.
 			this.head = null;
 			this.tail = null;
 			this.curr = null;
-			
+
 			// Decrement num_items
 			this.num_items --;
 			return;
 		}
 
-		// If removing element at head 
-		if(this.head == this.curr)
+		// If removing element at head
+		if (this.head == this.curr)
 		{
 			// Just make head equal node after element
 			this.head = this.curr.getLink();
-			
+
 			// Curr to new head
 			this.curr = this.head;
 
@@ -341,11 +341,11 @@ public class List
 		}
 
 		// If removing element at tail
-		if(this.tail == this.curr)
+		if (this.tail == this.curr)
 		{
 			// Move curr to element in front of curr
 			this.SetPos(this.GetPos() - 1);
-			
+
 			// Remove reference to deleted element
 			this.curr.setLink(null);
 
@@ -373,7 +373,7 @@ public class List
 	public void Replace(int data)
 	{
 		// If list is empty, return
-		if(this.num_items == 0)
+		if (this.num_items == 0)
 			return;
 
 		// Replace data at curr with new data
@@ -401,7 +401,7 @@ public class List
 	public boolean Equals(List l)
 	{
 		// If List this is not equal in size to List l, return false
-		if(this.num_items != l.num_items)
+		if (this.num_items != l.num_items)
 			return false;
 
 		// Nodes to hold curr position so we can reset it at the end
@@ -413,10 +413,10 @@ public class List
 		l.curr = l.head;
 
 		// Do num_items number of times
-		for(int i = this.num_items; i > 0; i --)
+		for (int i = this.num_items; i > 0; i --)
 		{
 			// If data at l.curr and this.curr are not equal ...
-			if(l.curr.getData() != this.curr.getData())
+			if (l.curr.getData() != this.curr.getData())
 			{
 				// .. reset curr for both lists
 				this.curr = this_node;
@@ -433,7 +433,7 @@ public class List
 		// Reset curr for both lists
 		this.curr = this_node;
 		l.curr = l_node;
-		
+
 		return true;
 	}
 
@@ -445,11 +445,11 @@ public class List
 	public List Add(List l)
 	{
 		// if List this is already full, return
-		if(this.num_items == this.MAX_SIZE)
+		if (this.num_items == this.MAX_SIZE)
 			return this;
 
 		// If List this is empty, return List l
-		if(this.num_items == 0)
+		if (this.num_items == 0)
 			return l;
 
 		// Deep copy Lists this and l to new_list/2
@@ -470,7 +470,7 @@ public class List
 
 		// Remove excess items
 		// while our list is too large, remove the last element
-		for(;new_list.num_items > new_list.MAX_SIZE; new_list.Remove());
+		for (; new_list.num_items > new_list.MAX_SIZE; new_list.Remove());
 
 		return new_list;
 
@@ -482,9 +482,9 @@ public class List
 	{
 		// make node so we can reset curr at end
 		Node temp_node = this.curr;
-		
+
 		// If  list is empty, return "NULL"
-		if(this.num_items == 0)
+		if (this.num_items == 0)
 			return "NULL";
 
 		// String to be returned
@@ -494,15 +494,15 @@ public class List
 		this.curr = this.head;
 
 		// for each item in list
-		for(int i = 0; i < this.num_items; i ++)
+		for (int i = 0; i < this.num_items; i ++)
 		{
 			// Add data to string
 			string += this.curr.getData() + " ";
-			
+
 			// Move curr to next element
 			this.curr = this.curr.getLink();
 		}
-		
+
 		// Reset curr
 		this.curr = temp_node;
 
