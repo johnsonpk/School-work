@@ -39,7 +39,8 @@ public class InfixToPostfix
 			}
 
 			br.close();
-		} catch (Exception e) {}
+		}
+		catch (Exception e) {}
 	}
 
 	// given an infix queue, this method converts it to a postfix queue
@@ -49,9 +50,9 @@ public class InfixToPostfix
 		// Initialize our stack for our operands and queue for characters
 		Stack<Character> oper = new Stack<Character>();
 		Queue<Character> postfix = new Queue<Character>();
-		
+
 		// Initialize token and op
-		char token, op; 
+		char token, op;
 
 		while (!infix.IsEmpty())
 		{
@@ -68,8 +69,8 @@ public class InfixToPostfix
 			else if (token == ')')
 			{
 				op = oper.Pop();
-				
-				while(op != '(')
+
+				while (op != '(')
 				{
 					postfix.Enqueue(op);
 					op = oper.Pop();
@@ -85,14 +86,14 @@ public class InfixToPostfix
 				{
 					// Remover op from oper
 					op = oper.Pop();
-					
+
 					// Enqueue op to postfix
 					postfix.Enqueue(op);
 
-					// Set op to the next operator 
+					// Set op to the next operator
 					op = (oper.Peek() == null) ? (0) : (oper.Peek());
 				}
-				
+
 				// Push operator onto oper
 				oper.Push(token);
 			}
@@ -114,7 +115,8 @@ public class InfixToPostfix
 		Stack<Double> stackEval = new Stack<Double>();
 
 		// Instantiate result and ch
-		double result; char ch;
+		double result;
+		char ch;
 
 		// While we still have characters in postfix
 		while (!postfix.IsEmpty())
@@ -126,7 +128,7 @@ public class InfixToPostfix
 			if (!IsOperand(ch))
 			{
 				// Perform correct operation
-				switch(ch)
+				switch (ch)
 				{
 					case '*':
 						result = stackEval.Pop() * stackEval.Pop();
@@ -163,7 +165,7 @@ public class InfixToPostfix
 
 		}
 		// Since result will be the only thing in stackEval, pop it and return it
-		return stackEval.Pop();	
+		return stackEval.Pop();
 	}
 
 	// given a character from an expression, this method determines whether or not it is an operand
@@ -183,17 +185,17 @@ public class InfixToPostfix
 		// Return priority of c
 		switch (c)
 		{
-			case '(': 
+			case '(':
 				return 4;
-			case '^': 
+			case '^':
 				return 3;
-			case '*': 
-			case '/': 
+			case '*':
+			case '/':
 				return 2;
-			case '+': 
-			case '-': 
+			case '+':
+			case '-':
 				return 1;
-			default: 
+			default:
 				return 0;
 		}
 	}
@@ -206,14 +208,14 @@ public class InfixToPostfix
 		// Return priority of c
 		switch (c)
 		{
-			case '^': 
-			case '*': 
-			case '/': 
+			case '^':
+			case '*':
+			case '/':
 				return 2;
-			case '+': 
-			case '-': 
+			case '+':
+			case '-':
 				return 1;
-			default: 
+			default:
 				return 0;
 		}
 	}

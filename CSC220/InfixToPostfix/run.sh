@@ -1,3 +1,6 @@
 #!/bin/bash
-javac QueueTest.java 2> 2errors.txt
-java QueueTest 2> errors.txt > output.out
+javac InfixToPostfix.java 2> 2errors.txt
+java InfixToPostfix < input.txt 2> errors.txt > output.txt
+cat output.txt 
+cat errors.txt
+cat 2errors.txt
