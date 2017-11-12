@@ -96,14 +96,16 @@ class Trie(object):
 
 
 # This is some text code I was using
-"""
+
 text = "Peter Piper picked a peck of pickled peppers; A peck of pickled peppers Peter Piper picked;"
 x = Trie(text)
 text = text.split()
 for word in text:
     print("{} is stored: {}".format(word, x.isStored(word)))
-"""    
 
+print(x.isStored("Pete"))
+print(x.isStored("Peter"))
+print(x.isStored("Peter$%^&*"))
 
 ##### ENTER CODE AFTER HERE TO TEST CLASS #####
 # initialize Trie by x = Trie(<string of words to add>)
